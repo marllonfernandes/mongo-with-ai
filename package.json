@@ -1,0 +1,19 @@
+{
+  "name": "rag-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file .env app.js",
+    "load": "node --env-file .env load.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/core": "^0.3.42",
+    "@langchain/openai": "^0.4.4",
+    "mongoose": "^8.12.1",
+    "uuid": "^11.1.0"
+  }
+}
